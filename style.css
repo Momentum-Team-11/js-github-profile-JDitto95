@@ -1,0 +1,11 @@
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%; 
+}
+.body{
+box-sizing: border-box;
+}
+*body{
+    background-color: gray;
+}
