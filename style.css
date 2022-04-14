@@ -9,3 +9,14 @@ box-sizing: border-box;
 *body{
     background-color: gray;
 }
+.user-name{
+    font:  sans-serif;
+    background-color: gray;
+    
+}
+.container{
+    background-color: gray;
+}
+.name{
+    background-color: grey;
+}

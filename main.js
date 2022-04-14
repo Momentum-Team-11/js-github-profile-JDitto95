@@ -22,12 +22,12 @@ fetch(url)
 .then((data) =>{ 
     let named = document.getElementById("name")
 
+    let location = document.getElementById("location")
+    location.innerHTML = data.location
     let avatar = document.querySelector("avatar")
     named.innerHTML = `<img src = ${data.avatar_url}>Joseph Menditto`
     let htmly = document.getElementById("html")
     htmly.innerHTML = `<a href=${data.html_url}>joey.menditto</a>`
-    let location = document.getElementById("location")
-    location.innerHTML = data.location
     console.log(data.repos_url)
     return data.repos_url
 })
